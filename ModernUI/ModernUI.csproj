@@ -1,0 +1,96 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\tgBtn_default.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\tgBtn_default.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\tgBtn_MouseOver.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\tgBtn_MouseOver.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\img_home.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\img_home.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\img_contact.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\img_contact.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\img_message.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\img_message.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\img_map.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\img_map.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\img_setting.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\img_setting.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\img_signout.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\img_signout.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets/img_background.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets/img_background.png" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove="Assets/closeBtn_default.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets/closeBtn_default.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\Roboto-Light.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\Roboto-Light.ttf" />
+  </ItemGroup>
+</Project>
